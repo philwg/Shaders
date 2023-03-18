@@ -1,0 +1,34 @@
+Ce programme présente une application des Shaders sur une visualisation d'un Tore.
+
+J'ai grandement reformaté le code fourni mais n'ai pas pu le travailler à domicile
+car mon ordinateur perso fait tourner une machine virtuelle Débian sur un Windows 10
+et la communication avec le GPU ne se fait qu'avec une version obsolète de GLSL.
+
+J'ai effectué l'ensemble des opérations demandées sauf l'application de la Glossy Map.
+Pour le reste, j'ai prévu la possibilité de tweaker les paramètres d'affichage au clavier:
+
+	souris:		Déplacement du Tore
+	
+	'f':		Affichage du carre plein
+    
+    'e':		Affichage en mode fil de fer
+    
+    'v':		Affichage en mode sommets seuls
+
+	's/S':		Modification de la Shininess
+
+	'x/X':		Déplacement en x de la lumière
+	
+	'y/Y':		Déplacement en y de la lumière
+	
+	'z/Z':		Déplacement en z de la lumière
+
+	'a/A':		Modification de la lumière ambiante
+	
+	't':		Texture ou Couleur
+	
+	'T':		Modification de la texture et de sa normaleMap
+	
+	'g/G':		Modification du Gamma
+
+	'q':		Quitter l'application
